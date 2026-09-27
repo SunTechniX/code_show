@@ -1,3 +1,4 @@
+# 14:53
 import math
 
 a = float(input())
