@@ -1,5 +1,5 @@
-name = input()
-if name == 'Саша':
-    print(f"Привет, уважаемый, {name}")
-else:
-    print(f"Привет, {name}")
+for i in range(10, 0, -1):
+    print(i)
+    if i == 5:
+        print("Start")
+        break
