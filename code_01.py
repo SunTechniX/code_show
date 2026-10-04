@@ -1,5 +1,6 @@
+n = int(input())
 for i in range(10, 0, -1):
     print(i)
-    if i == 5:
+    if i == n:
         print("Start")
         break
