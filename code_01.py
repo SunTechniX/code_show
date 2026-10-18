@@ -1,6 +1,6 @@
-#совместимость 10.0
-метод Скрипт()
-    пер маш = 325
-    Консоль.Записать(маш + 4)
-    Консоль.Записать(маш)
-;
+from random import randint
+
+n = int(input())
+for i in range(1, n + 1):
+    x = randint(1, n)
+    print(f"{i} * {x} = {i * x}")
