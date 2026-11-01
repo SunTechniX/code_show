@@ -1,6 +1,7 @@
 #        012345
 line1 = "╔╗╚╝║═"
 line2 = "┌┐└┘│─"
+line3 = "╭╮╰╯│─"
 
 def logo(name, syms):
     n = len(name)
@@ -10,5 +11,5 @@ def logo(name, syms):
     print(f"{syms[2]}{line}{syms[3]}")
 
 # ПРОГРАММА НАЧИНАЕТСЯ ЗДЕСЬ!
-logo("Роман", line1)
+logo("Роман", line3)
 logo("Александр", line2)
