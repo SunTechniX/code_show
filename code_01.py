@@ -1,3 +1,5 @@
+from random import randint
+
 #        012345
 line1 = "╔╗╚╝║═"
 line2 = "┌┐└┘│─"
@@ -20,6 +22,6 @@ def logo(name, mode=0):
     print(f"{syms[2]}{line}{syms[3]}")
 
 # ПРОГРАММА НАЧИНАЕТСЯ ЗДЕСЬ!
-logo("Роман", line3)
-logo("Александр", line4)
-logo("Владислав", line1)
+logo("Роман", randint(1, 4))
+logo("Александр", randint(1, 4))
+logo("Владислав", randint(1, 4))
