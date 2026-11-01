@@ -1,10 +1,14 @@
-def logo(name):
+#        012345
+line1 = "╔╗╚╝║═"
+line2 = "┌┐└┘│─"
+
+def logo(name, syms):
     n = len(name)
-    line = "═" * (n + 2)
-    print(f"╔{line}╗")
-    print(f"║ {name} ║")
-    print(f"╚{line}╝")
+    line = syms[5] * (n + 2)
+    print(f"{syms[0]}{line}{syms[1]}")
+    print(f"{syms[4]} {name} {syms[4]}")
+    print(f"{syms[2]}{line}{syms[3]}")
 
 # ПРОГРАММА НАЧИНАЕТСЯ ЗДЕСЬ!
-logo("Роман")
-logo("Александр")
+logo("Роман", line1)
+logo("Александр", line2)
